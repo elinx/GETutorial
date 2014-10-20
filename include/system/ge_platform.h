@@ -40,6 +40,8 @@
 		#define GE_API GE_API
 		#endif
 	#endif
+#else
+	#define GE_API GE_API
 #endif
 
 #endif
