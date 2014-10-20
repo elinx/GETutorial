@@ -1,7 +1,9 @@
 #ifndef GE_GAME_H
 #define GE_GAME_H
 
-class Game{
+#include <ge_platform.h>
+
+class GE_API Game{
 public:
 	Game();
 	~Game();
